@@ -58,7 +58,7 @@ else
 fi
 
 echo "Building Elm to JS..."
-elm make Main.elm --output=main.js
+elm make src/Main.elm --output=main.js
 
 # Find an open port
 PORT=8000

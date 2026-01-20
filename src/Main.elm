@@ -223,8 +223,7 @@ view model =
         isGameOver = (model.triesRemaining <= 0 && model.maxTries > 0) || hasWon
     in
     div [ style "padding" "20px", style "font-family" "sans-serif", style "text-align" "center", style "max-width" "500px", style "margin" "0 auto" ]
-        [ div [ style "color" "#cc0000", style "font-size" "10px", style "margin-bottom" "5px" ] [ text ("DEBUG: " ++ model.targetWord) ]
-        , div [ style "font-size" "32px", style "font-weight" "bold" ] [ text "ELM-WORDLE" ]
+        [ div [ style "font-size" "32px", style "font-weight" "bold" ] [ text "WORDELM" ]
         , div [ style "margin-bottom" "10px", style "color" "#666" ] 
             [ text (String.fromInt model.triesRemaining ++ " / " ++ String.fromInt model.maxTries ++ " tries left") ]
         
