@@ -1,0 +1,11 @@
+# Elm
+elm-stuff/
+*.js
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
