@@ -81,7 +81,7 @@ update msg model =
         NewTargetWord word ->
             let
                 size = String.length word
-                tries = size + 1
+                tries = size + 4
             in
             ( { model 
                 | targetWord = word
